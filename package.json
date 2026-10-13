@@ -1,0 +1,11 @@
+{
+  "name": "wakariyasuku",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "わかりやすく / Make It Clear: rewrite hard text in plain words with an on-device AI.",
+  "license": "MIT",
+  "scripts": { "dev": "vite", "build": "tsc --noEmit && vite build", "preview": "vite preview" },
+  "dependencies": { "@huggingface/transformers": "3.7.6", "tesseract.js": "7.0.0" },
+  "devDependencies": { "typescript": "5.9.3", "vite": "6.4.3", "vite-plugin-pwa": "0.21.2" }
+}
